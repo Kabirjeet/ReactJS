@@ -1,0 +1,50 @@
+Use PascalCase for components names: 'MyComponent' not 'myComponent'.
+
+-------------------------------------------------Props in React (Properties)----------------------------------------------------------
+
+Allows you to pass data from parent component to child component
+
+❌Disadvantage of Props
+Props drilling: If you want to pass component from parent to grandchild element it is props drilling.
+
+
+✅Why React introduced hooks
+✅UseState
+✅UseEffect
+
+
+🚀What are React Hooks?
+
+Hooks are special JavaScript functions introduced in React 1 to 8 that allow functional components to use features like state, lifecycle methods, and more-features that were earlier available only in class components.
+
+
+✅Why Hooks?
+
+🧽Cleaner, simpler code using funcitons instead of classes
+🔄Easier reuse of logic through custom hooks
+🧠No need to deal with complex 'this' keyword
+🛠️Better code seperation and organization
+
+
+🧠 The problem before Hooks
+
+____________________________________________________
+| Hooks      | Purpose                             |
+|--------------------------------------------------|
+|useState    | State management                    | 
+|useEffect   | Side effects / lifecycle methods    | 
+|useRef      | Accessing and persisteing DOM values|
+----------------------------------------------------
+
+
+State is an object that holds data or information about a component that can change over time and influences what the UI looks like.
+
+
+
+SYNTAX::
+
+import {useState} from "react";
+
+useState() -> Hooks
+
+const[State, setState] = useState()
