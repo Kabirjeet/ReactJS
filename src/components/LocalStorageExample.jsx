@@ -25,6 +25,7 @@ const LocalStorageExample = () => {
     <>
         <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
         <p>name is {"stranger" || name}</p>
+        <h1>Testing 123</h1>
         <button onClick={reset}>Reset</button>
     </>
   )

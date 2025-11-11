@@ -23,21 +23,21 @@ function App(){
 
   return(
     <>
-      {/* <h1>Hello World</h1>
-      <Home object={obj}/> */}
-      {/* <Counter /> */}
-      {/* <InputChange /> */}
-      {/* <InputSubmit /> */}
-      {/* <BooleanExample /> */}
-      {/* <ArrayExample /> */}
-      {/* <ObjExample /> */}
-      {/* <UseEffectBasic /> */}
-      {/* {<TitleUpdate />} */}
-      {/* <Dependencies /> */}
-      {/* <Timer /> */}
-      {/* <FetchBasic /> */}
-      {/* <PerfectFetch /> */}
-      {/* <ConditionalFetch /> */}
+      <h1>Hello World</h1>
+      <Home object={obj}/>
+      <Counter />
+      <InputChange />
+      <InputSubmit />
+      <BooleanExample />
+      <ArrayExample />
+      <ObjExample />
+      <UseEffectBasic />
+      {<TitleUpdate />}
+      <Dependencies />
+      <Timer />
+      <FetchBasic />
+      <PerfectFetch />
+      <ConditionalFetch />
       <LocalStorageExample />
     </>
   )
